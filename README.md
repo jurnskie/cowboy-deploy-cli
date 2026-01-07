@@ -186,12 +186,21 @@ cowboy rollback
 
 Built with Laravel Zero.
 
-**Location:** `~/Code/php/cowboy-deploy-cli`
-
-**Edit commands:**
+**Clone the repo:**
 ```bash
-cd ~/Code/php/cowboy-deploy-cli
+git clone https://github.com/jurnskie/cowboy-deploy-cli.git
+cd cowboy-deploy-cli
+composer install
+```
+
+**Create new commands:**
+```bash
 php cowboy make:command NewCommand
+```
+
+**Test locally:**
+```bash
+php cowboy [command]
 ```
 
 ## Tips
